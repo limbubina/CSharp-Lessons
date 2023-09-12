@@ -10,7 +10,7 @@ namespace BinaClassLibraryTest
         public void BinaTestMethod1()
         {
             int testResult  = ClassLibraryPractice.Class1.Addition(5, 5);
-            Assert.AreEqual(10,testResult);//2nd message again
+            Assert.AreEqual(10,testResult);
         }
     }
 }
