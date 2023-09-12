@@ -17,7 +17,7 @@ namespace Interface_Exams
         [TestMethod]
         public void Test_Page2()
         {
-            IPageObject pageObject2 = new PageObjectTwo();
+            IPageObject pageObject2 = new PageObjectTwo(); //comment test
             Assert.AreEqual(pageObject2.PageName, "Page Name 2");
 
         }
